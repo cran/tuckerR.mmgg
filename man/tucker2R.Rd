@@ -15,7 +15,7 @@ individuals.}
 individuals had been studied. By default is 2.}
 
 \item{stand}{a boolean value, if it is TRUE (value set by default) each
-variabel is centered and scale by variable.}
+variable is centered and scale by variable.}
 
 \item{nc1}{number of components in the first mode, by default is 2}
 
@@ -25,10 +25,10 @@ variabel is centered and scale by variable.}
 10000 iteration}
 }
 \value{
-\code{Resultado}a list which stores the name of the individual and
-the variables,the number of iterations, the variability explained by the
+\code{Resultado} a list which stores the name of the individual and
+the variables, the number of iterations, the variability explained by the
 model, and the total variability.
-\code{Proyeccion}It is a list which holds the projection of individuals and
+\code{Proyeccion} It is a list which holds the projection of individuals and
 variables to see if the biplot is difficult to understand because of  the
 huge number of cases or plotted vectors.
 \code{saltuck} is a list with the results of the algorithm to plot the biplot,
@@ -53,12 +53,9 @@ data(maize_pop,package = "tuckerR.mmgg")
 (output <- tucker2R(maize_pop,amb=2,stand=TRUE,nc1=3,nc2=3))
 
 }
-\author{
-Marta Marticorena, Gustavo Gimenez, Cecilia Gonzalez, Sergio Bramardi
-}
 \references{
 \describe{
- \item{MARTICORENA, M.; BRAMARDI, S.; DEFACIO, R. 2010.}{Characterization of maize populations in different environmental
+ \item{Marticorena, M.; Bramardi, S.; Defacio, R. 2010.}{Characterization of maize populations in different environmental
 conditions by means of Three-Mode Principal Components Analysis. Revista Ciencia e Investigacion   Agraria. 37(3): 93-105.}
  \item{Timmerman, M.E., and H. Kiers. 2000.}{Three-mode principal components analysis. Choosing numbers of components and sensitivity to local
 optima. The British Journal of the Mahematical and Statistical Psychology 53: 1-16.}
@@ -67,5 +64,7 @@ optima. The British Journal of the Mahematical and Statistical Psychology 53: 1-
 \seealso{
 The function plot.marta for a complete analisis.
 }
+\author{
+Marta Marticorena, Gustavo Gimenez, Cecilia Gonzalez, Sergio Bramardi
+}
 \keyword{kwd1}
-
